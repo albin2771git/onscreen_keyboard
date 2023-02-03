@@ -128,7 +128,8 @@ class _OnscreenKeyboardWidgetState extends State<OnscreenKeyboardWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Column(
+      mainAxisAlignment:MainAxisAlignment.center
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Expanded(
