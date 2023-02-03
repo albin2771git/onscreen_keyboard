@@ -130,7 +130,7 @@ class _OnscreenKeyboardWidgetState extends State<OnscreenKeyboardWidget> {
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment:MainAxisAlignment.center
-      crossAxisAlignment: CrossAxisAlignment.start,
+    
       children: [
         Expanded(
           child: Column(
